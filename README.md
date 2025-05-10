@@ -1,0 +1,1 @@
+This repo contains all the code and associated media hosted on the webpage created here. The webpage is a guide to responsible use of AI in a newsroom. It is a final project completed for the course JOUR-689 at the University of Maryland's Philip Merrill College of Journalism. The course is taught by Prof. Derek Willis.
