@@ -1,0 +1,149 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.hed-image {
+    width: 450px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    flex-grow: 1;
+    font-family: "Montserrat", sans-serif;
+}
+
+.byline {
+    font-size: 2em;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+p {
+    font-family: "Georgia, serif";
+    line-height: 180%;
+    font-size: 20px;
+}
+
+.chapter {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: left;
+}
+
+.grimace {
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-text {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.caption {
+    font-family: "Montserrat", sans-serif;
+    color: lightgray;
+    font-style: italic;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.row {
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+.hero {
+    font-family: "Montserrat", sans-serif;
+}
+
+.subhead {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+/* Obituary Card Styles */
+#obituary-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.obituary-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
+}
+
+.obituary-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.obituary-card h2 {
+  font-size: 1.25rem;
+  margin-top: 0;
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+}
+
+.obituary-card p {
+  font-size: 0.95rem;
+  margin: 5px 0;
+  color: #555;
+  font-family: "Georgia", serif;
+}
+
+/* Search Box Styles */
+#searchBox {
+  display: block;
+  width: 80%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.full-obituary-text {
+  font-family: Georgia, serif;
+  margin-top: 10px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.obituary-card.expanded {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex-basis: 100% !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
