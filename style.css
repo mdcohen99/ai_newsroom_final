@@ -12,11 +12,26 @@
 }
 
 .headline {
-    font-weight: bold;
-    font-size: 40px;
-    margin: 0;
-    flex-grow: 1;
-    font-family: "Montserrat", sans-serif;
+  font-size: 3vw; /* Responsive font size based on viewport width */
+  text-align: center;
+  font-weight: bold;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding: 0 10px;
+  font-family: "Montserrat", sans-serif; /* Add padding to prevent text from hitting the edges */
+}
+
+/* Optional: Cap the font size on very large or small screens */
+@media (max-width: 768px) {
+  .headline {
+    font-size: 5vw; /* Increase font size slightly on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .headline {
+    font-size: 6vw;
+  }
 }
 
 .byline {
